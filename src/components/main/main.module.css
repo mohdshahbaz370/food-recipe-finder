@@ -1,0 +1,47 @@
+.aboutParagraph {
+  width: 70%;
+}
+
+.about,
+.howToGetStarted {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 64px 64px;
+  font-size: 18px;
+}
+
+.aboutImg {
+  border-radius: 4px;
+  width: 100%;
+  opacity: 0.75;
+}
+
+.col1 {
+  width: 30%;
+  padding: 12px 24px;
+}
+
+.col2 {
+  width: 60%;
+  padding: 12px 24px;
+}
+
+.btn {
+  padding: 5px;
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
