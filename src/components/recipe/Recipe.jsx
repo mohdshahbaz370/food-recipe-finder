@@ -8,13 +8,13 @@ const Recipe = ({ title, calories, image, ingredients }) => {
         <img className={styles.img} src={image} alt="dish pic" />
       </section>
       <section className={styles.col2}>
-        <h1>{title}</h1>
+        <h1 className={styles.heading}>{title}</h1>
         <ol>
           {ingredients?.map((ingredient) => (
             <li>{ingredient?.text}</li>
           ))}
         </ol>
-        <p>Calories : {calories}</p>
+        <p className={styles.para}>Calories : {calories}</p>
       </section>
     </section>
   );

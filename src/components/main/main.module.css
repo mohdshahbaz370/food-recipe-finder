@@ -8,28 +8,31 @@
   flex-wrap: wrap;
   padding: 64px 64px;
   font-size: 18px;
+  justify-content: space-evenly;
 }
 
 .aboutImg {
   border-radius: 4px;
   width: 100%;
+  max-width: 500px;
   opacity: 0.75;
 }
 
 .col1 {
-  width: 30%;
+  width: 300px;
   padding: 12px 24px;
 }
 
 .col2 {
-  width: 60%;
+  width: 500px;
   padding: 12px 24px;
 }
 
 .btn {
-  padding: 5px;
+  padding: 10px;
   color: #000;
   background-color: #f1f1f1;
+  margin-top: 15px;
 }
 
 .btn:hover {

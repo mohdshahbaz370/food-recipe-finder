@@ -13,7 +13,7 @@ const Main = () => {
         </section>
         <section className={styles.col2}>
           <h1>About</h1>
-          <p className={styles.aboutParagraph}>
+          <p>
             Search for any food you want from around the globe and know its
             secret ingredients. We are using a very powerful API behind the
             scenes to generate food recipes

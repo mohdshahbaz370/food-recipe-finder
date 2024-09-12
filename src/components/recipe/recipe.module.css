@@ -26,6 +26,17 @@
   padding: 12px 24px;
 }
 
+.heading {
+  font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.para {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     display: flex;
