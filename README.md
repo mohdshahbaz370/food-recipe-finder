@@ -1,1 +1,1 @@
-# Food Recipe Finder App
+# Food Recipe Finder Project using React.js
