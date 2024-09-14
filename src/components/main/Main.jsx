@@ -12,7 +12,7 @@ const Main = () => {
           <img src={pancakePic} alt="pancake pic" className={styles.aboutImg} />
         </section>
         <section className={styles.col2}>
-          <h1>About</h1>
+          <h2>About</h2>
           <p>
             Search for any food you want from around the globe and know its
             secret ingredients. We are using a very powerful API behind the
@@ -23,7 +23,7 @@ const Main = () => {
       <hr className={styles.hr} />
       <section className={styles.howToGetStarted}>
         <section className={styles.col2}>
-          <h1>How to to get Started?</h1>
+          <h2>How to to get Started?</h2>
           <p>
             Please click <q>get started</q> button to start searching for your
             tasty food recipe that you want to try.
