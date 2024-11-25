@@ -12,7 +12,7 @@ const Main = () => {
           <img src={pancakePic} alt="pancake pic" className={styles.aboutImg} />
         </section>
         <section className={styles.col2}>
-          <h1>About</h1>
+          <h2>About</h2>
           <p>
             Search for any dish you desire from across the world and learn about
             its secret ingredients. We produce food recipes utilising a highly
@@ -23,7 +23,7 @@ const Main = () => {
       <hr className={styles.hr} />
       <section className={styles.howToGetStarted}>
         <section className={styles.col2}>
-          <h1>How to to get Started?</h1>
+          <h2>How to to get Started?</h2>
           <p>
             To begin looking for the delicious recipe you wish to try, just
             click the <q>get started</q> button.
