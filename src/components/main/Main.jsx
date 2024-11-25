@@ -14,9 +14,9 @@ const Main = () => {
         <section className={styles.col2}>
           <h1>About</h1>
           <p>
-            Search for any food you want from around the globe and know its
-            secret ingredients. We are using a very powerful API behind the
-            scenes to generate food recipes
+            Search for any dish you desire from across the world and learn about
+            its secret ingredients. We produce food recipes utilising a highly
+            strong API behind the scenes.
           </p>
         </section>
       </section>
@@ -25,14 +25,12 @@ const Main = () => {
         <section className={styles.col2}>
           <h1>How to to get Started?</h1>
           <p>
-            Please click <q>get started</q> button to start searching for your
-            tasty food recipe that you want to try.
+            To begin looking for the delicious recipe you wish to try, just
+            click the <q>get started</q> button.
           </p>
-          <button className={styles.btn}>
-            <Link to="/search" className={styles.link}>
-              Get Started
-            </Link>
-          </button>
+          <Link to="/search" className={styles.link}>
+            <button className={styles.btn}>Get Started</button>
+          </Link>
         </section>
         <section className={styles.col1}>
           <img src={burgerPic} alt="burger pic" className={styles.aboutImg} />
